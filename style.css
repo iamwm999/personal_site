@@ -11,7 +11,21 @@ color: #6b705c;
 
 }
 
+header {
 
+text-align: center;
+font-size: 56px;
+font-weight: bolder;
+padding: 20px;
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+
+}
 
 footer {
 
@@ -112,4 +126,26 @@ hr.top {
 hr.divide {
     border: 3px solid;
     border-radius: 5px;
+}
+
+
+
+
+/* portfolio */
+
+
+
+
+img.portnum {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+section.project {
+    border: 15px solid;
+    height: auto;
+    width: 400px;
+    display: inline-table;
+    margin-left: 1em;
 }
